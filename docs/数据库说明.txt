@@ -1,21 +1,21 @@
-¹Ù·½Ìá¹©£ºmysql\oracle\SqlServer½Å²½£¬ÆäËûÊı¾İ¿â£¬¿ÉÒÔÍ¨¹ı¹¤¾ß×ÔĞĞ×ª»»¡£
-×ª»»·½·¨²Î¿¼£ºhttp://blog.csdn.net/zhangdaiscott/article/details/46412453?yyue=a21bo.50862.201879
+å®˜æ–¹æä¾›ï¼šmysql\oracle\SqlServerè„šæœ¬ï¼Œå…¶ä»–æ•°æ®åº“ï¼Œå¯ä»¥é€šè¿‡å·¥å…·è‡ªè¡Œè½¬æ¢ã€‚
+è½¬æ¢æ–¹æ³•å‚è€ƒï¼šhttp://blog.csdn.net/zhangdaiscott/article/details/46412453?yyue=a21bo.50862.201879
 
-½Å²½ËµÃ÷£º
+è„šæ­¥è¯´æ˜ï¼š
 
-1.oracle µ¼ÈëÃüÁî
-   ËµÃ÷£º jeecg½Å±¾µ¼³öÓÃ»§ÊÇscott
+1.oracle å¯¼å…¥å‘½ä»¤
+   è¯´æ˜ï¼š jeecgè„šæœ¬å¯¼å‡ºç”¨æˆ·æ˜¯scott
    imp scott/tiger@orcl file=jeecg_4.0_oracle11g.dmp
-   µ¼ÈëÆäËûÓÃ»§µÄ±í
+   å¯¼å…¥å…¶ä»–ç”¨æˆ·çš„è¡¨
    imp jeecgos/jeecgos@orcl file=/opt/datatmp/jeecg_4.0_oracle11g.dmp fromuser=scott touser=jeecgos ignore=y commit=y buffer=300000000 feedback=10000
 
 
-2. oracle¡¢SqlServer½Å²½Ë÷Òı»áÓĞ²¿·Ö¶ªÊ§£¬ÎªÁËÏµÍ³ĞÔÄÜ£¬Çë×ÔĞĞ²¹¼ÓË÷Òı¡£
-3. jeecgÏµÍ³Êı¾İ¿âÇĞ»»ÅäÖÃ·½·¨£¬²Î¿¼³£¼ûÎÊÌâÌù29
+2. oracleã€SqlServerè„šæ­¥ç´¢å¼•ä¼šæœ‰éƒ¨åˆ†ä¸¢å¤±ï¼Œä¸ºäº†ç³»ç»Ÿæ€§èƒ½ï¼Œè¯·è‡ªè¡Œè¡¥åŠ ç´¢å¼•ã€‚
+3. jeecgç³»ç»Ÿæ•°æ®åº“åˆ‡æ¢é…ç½®æ–¹æ³•ï¼Œå‚è€ƒå¸¸è§é—®é¢˜è´´29
    http://bbs.jeecg.com/forum.php?mod=viewthread&tid=1830&extra=page%3D1
 
-4.ÀÏ°æ±¾Êı¾İ¿âÔöÁ¿Éı¼¶
-    Ö´ĞĞÀÏ°æ±¾Éı¼¶SQL½Å±¾
-	3.8Éı¼¶µ½4.0
-    docs/ÀÏ°æ±¾ÔöÁ¿Éı¼¶/jeecg_mysql-3.8-update-4.0.sql
+4.è€ç‰ˆæœ¬æ•°æ®åº“å¢é‡å‡çº§
+    æ‰§è¡Œè€ç‰ˆæœ¬å‡çº§SQLè„šæœ¬
+	3.8å‡çº§åˆ°4.0
+    docs/è€ç‰ˆæœ¬å¢é‡å‡çº§/jeecg_mysql-3.8-update-4.0.sql
 	
